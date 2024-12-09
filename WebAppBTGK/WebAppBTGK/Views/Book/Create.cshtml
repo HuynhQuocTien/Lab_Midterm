@@ -1,0 +1,67 @@
+﻿@using Domain
+@model Book
+@{
+    var availableSelected = Model.Available ? "selected" : "";
+    var notAvailableSelected = !Model.Available ? "selected" : "";
+    var isActiveSelected = Model.IsActive ? "selected" : "";
+    var notActiveSelected = !Model.IsActive ? "selected" : "";
+    var publisherSelected = Model.Publisher ? "selected" : "";
+    var notPublisherSelected = !Model.Publisher ? "selected" : "";
+}
+<h1>Create Book</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="Title">Title</label>
+        <input type="text" id="Title" name="Title" class="form-control" value="@Model.Title" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Author">Author</label>
+        <input type="text" id="Author" name="Author" class="form-control" value="@Model.Author" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Price">Price</label>
+        <input type="number" id="Price" name="Price" class="form-control" value="@Model.Price" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Available">Available</label>
+        <select id="Available" name="Available" class="form-control">
+            <option value="true" selected="@(Model.Available ? "selected" : null)">Yes</option>
+            <option value="false" selected="@(Model.Available ? null : "selected")">No</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="IsActive">Is Active</label>
+        <select id="IsActive" name="IsActive" class="form-control">
+            <option value="true" selected="@(Model.IsActive ? "selected" : null)">Yes</option>
+            <option value="false" selected="@(Model.IsActive ? null : "selected")">No</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="Publisher">Publisher</label>
+        <select id="Publisher" name="Publisher" class="form-control">
+            <option value="true" selected="@(Model.Publisher ? "selected" : null)">Yes</option>
+            <option value="false" selected="@(Model.Publisher ? null : "selected")">No</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="GenreId">Genre</label>
+        <select id="GenreId" name="GenreId" class="form-control">
+            @if (ViewBag.Genres != null)
+            {
+                foreach (var genre in ViewBag.Genres as List<Genre>)
+                {
+                    <option value="@genre.Id" selected="@(genre.Id == Model.GenreId ? "selected" : null)">@genre.Name</option>
+                }
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>

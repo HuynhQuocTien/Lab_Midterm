@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppBTGK", "WebAppBTGK\WebAppBTGK.csproj", "{39006BB1-2350-4A8B-834C-FE280208D337}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{BAAE4ECC-DECC-4A45-B0F8-3177A5F7C005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{32E82358-806F-4841-A4A5-A4DB093B2D14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{1229260E-4130-4C0F-88F7-65CB9958024D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{F8A54B94-3F3A-4A95-BC74-32EF5C77C692}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infracstructe", "Infracstructe", "{2AA8C563-FE3F-4EFD-9610-4569FBE539FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infracstructe", "Infracstructe\Infracstructe.csproj", "{9A6CA601-F37B-4893-B8BD-2F23A64379C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{BE1D882C-7CDA-4475-9399-254AA505195E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39006BB1-2350-4A8B-834C-FE280208D337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39006BB1-2350-4A8B-834C-FE280208D337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39006BB1-2350-4A8B-834C-FE280208D337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39006BB1-2350-4A8B-834C-FE280208D337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32E82358-806F-4841-A4A5-A4DB093B2D14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E82358-806F-4841-A4A5-A4DB093B2D14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E82358-806F-4841-A4A5-A4DB093B2D14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E82358-806F-4841-A4A5-A4DB093B2D14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8A54B94-3F3A-4A95-BC74-32EF5C77C692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8A54B94-3F3A-4A95-BC74-32EF5C77C692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8A54B94-3F3A-4A95-BC74-32EF5C77C692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8A54B94-3F3A-4A95-BC74-32EF5C77C692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A6CA601-F37B-4893-B8BD-2F23A64379C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6CA601-F37B-4893-B8BD-2F23A64379C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6CA601-F37B-4893-B8BD-2F23A64379C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6CA601-F37B-4893-B8BD-2F23A64379C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE1D882C-7CDA-4475-9399-254AA505195E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1D882C-7CDA-4475-9399-254AA505195E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1D882C-7CDA-4475-9399-254AA505195E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1D882C-7CDA-4475-9399-254AA505195E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32E82358-806F-4841-A4A5-A4DB093B2D14} = {BAAE4ECC-DECC-4A45-B0F8-3177A5F7C005}
+		{F8A54B94-3F3A-4A95-BC74-32EF5C77C692} = {1229260E-4130-4C0F-88F7-65CB9958024D}
+		{9A6CA601-F37B-4893-B8BD-2F23A64379C2} = {2AA8C563-FE3F-4EFD-9610-4569FBE539FC}
+		{BE1D882C-7CDA-4475-9399-254AA505195E} = {2AA8C563-FE3F-4EFD-9610-4569FBE539FC}
+	EndGlobalSection
+EndGlobal

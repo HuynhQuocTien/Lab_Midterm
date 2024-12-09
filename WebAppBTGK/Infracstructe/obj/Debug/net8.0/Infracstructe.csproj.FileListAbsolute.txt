@@ -1,0 +1,11 @@
+E:\GiuaKyDOTNET\WebAppBTGK\Infracstructe\bin\Debug\net8.0\Infracstructe.deps.json
+E:\GiuaKyDOTNET\WebAppBTGK\Infracstructe\bin\Debug\net8.0\Infracstructe.dll
+E:\GiuaKyDOTNET\WebAppBTGK\Infracstructe\bin\Debug\net8.0\Infracstructe.pdb
+E:\GiuaKyDOTNET\WebAppBTGK\Infracstructe\obj\Debug\net8.0\Infracstructe.GeneratedMSBuildEditorConfig.editorconfig
+E:\GiuaKyDOTNET\WebAppBTGK\Infracstructe\obj\Debug\net8.0\Infracstructe.AssemblyInfoInputs.cache
+E:\GiuaKyDOTNET\WebAppBTGK\Infracstructe\obj\Debug\net8.0\Infracstructe.AssemblyInfo.cs
+E:\GiuaKyDOTNET\WebAppBTGK\Infracstructe\obj\Debug\net8.0\Infracstructe.csproj.CoreCompileInputs.cache
+E:\GiuaKyDOTNET\WebAppBTGK\Infracstructe\obj\Debug\net8.0\Infracstructe.dll
+E:\GiuaKyDOTNET\WebAppBTGK\Infracstructe\obj\Debug\net8.0\refint\Infracstructe.dll
+E:\GiuaKyDOTNET\WebAppBTGK\Infracstructe\obj\Debug\net8.0\Infracstructe.pdb
+E:\GiuaKyDOTNET\WebAppBTGK\Infracstructe\obj\Debug\net8.0\ref\Infracstructe.dll

@@ -1,0 +1,41 @@
+﻿@using Domain
+@model IEnumerable<Book>
+
+<h1>Book List</h1>
+<a class="btn btn-primary" asp-controller="Book" asp-action="Create">Add Book</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th>Available</th>
+            <th>Publisher</th>
+            <th>Genre</th>
+            <th>Status</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.Id</td>
+                <td>@book.Title</td>
+                <td>@book.Author</td>
+                <td>@book.Price.ToString("C")</td>
+                <td>@(book.Available ? "Yes" : "No")</td>
+                <td>@(book.Publisher ? "Yes" : "No")</td>
+                <td>@book.Genre?.Name</td>
+                <td>@(book.IsActive ? "Active" : "Inactive")</td>
+                <td>
+                    <div class="btn btn-group">
+                        <a class="btn btn-warning" asp-controller="Book" asp-action="Edit" asp-route-id="@book.Id">Edit</a>
+                        <a class="btn btn-danger" asp-controller="Book" asp-action="Delete" asp-route-id="@book.Id">Delete</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

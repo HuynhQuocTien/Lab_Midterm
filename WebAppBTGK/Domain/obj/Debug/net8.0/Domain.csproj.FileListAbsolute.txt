@@ -1,0 +1,12 @@
+E:\GiuaKyDOTNET\WebAppBTGK\Domain\bin\Debug\net8.0\Domain.deps.json
+E:\GiuaKyDOTNET\WebAppBTGK\Domain\bin\Debug\net8.0\Domain.dll
+E:\GiuaKyDOTNET\WebAppBTGK\Domain\bin\Debug\net8.0\Domain.pdb
+E:\GiuaKyDOTNET\WebAppBTGK\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+E:\GiuaKyDOTNET\WebAppBTGK\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\GiuaKyDOTNET\WebAppBTGK\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+E:\GiuaKyDOTNET\WebAppBTGK\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+E:\GiuaKyDOTNET\WebAppBTGK\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+E:\GiuaKyDOTNET\WebAppBTGK\Domain\obj\Debug\net8.0\Domain.dll
+E:\GiuaKyDOTNET\WebAppBTGK\Domain\obj\Debug\net8.0\refint\Domain.dll
+E:\GiuaKyDOTNET\WebAppBTGK\Domain\obj\Debug\net8.0\Domain.pdb
+E:\GiuaKyDOTNET\WebAppBTGK\Domain\obj\Debug\net8.0\ref\Domain.dll
